@@ -1,0 +1,78 @@
+/* FOOTER */
+.divFooter__footer div {
+    background-color: #34bfb154;
+    /* margin-top: 20px; */
+    font-family: $font03;
+    font-size: 85%;
+    padding: 10px 25px;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+//nesting
+.footer {
+    background-color: $color01;
+    /* margin-top: 20px; */
+    font-family: $font03;
+    font-size: 85%;
+    padding: 10px 25px;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    ul li {
+        margin-bottom: 8px;
+    }
+}
+
+.footer__img {
+    width: 20px;
+    display: block;
+    margin: 4px;
+}
+
+.footer__a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer__a:hover {
+    color: blue;
+}
+
+.footer__a:active {
+    color: #570257;
+}
+
+//   .footer__ul li {
+//     margin-bottom: 8px;
+//   }
+
+.footer__ul {
+    list-style: none;
+}
+
+.footer__div--redes {
+    display: flex;
+}
+
+.footer__tablaContacto tr td {
+    padding: 1px;
+    border: 0;
+}
+
+.footer__div {
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#navSecundaria {
+    background-color: rgba(255, 235, 205, 0);
+    justify-content: start;
+}
+
+/* FIN FOOTER */
